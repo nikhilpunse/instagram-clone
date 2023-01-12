@@ -1,0 +1,221 @@
+/* navbar style */
+@import url('https://fonts.googleapis.com/css2?family=Grand+Hotel&display=swap');
+
+.nav-wrapper2{
+  background-color: white;
+  position: relative;
+}
+
+.searchList{
+  position: absolute;
+  top: 70px;
+  left: 30vw;
+  background-color:rgb(212, 210, 210);
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+}
+.searchList li{
+  width: 30vw;
+  padding-left: 1vw;
+  background-color: rgb(246, 242, 237);
+  margin-left: 8vw;
+}
+
+.text{
+  color:black !important;
+  font-size: medium;
+}
+.brand-logo{
+  font-family: 'Grand Hotel', cursive;
+}
+.logout_btn{
+  background-color: rgb(214, 221, 219);
+}
+.search_input{
+  width: 60% !important;
+  margin-left: 30% !important;
+}
+
+/* login and signup style */
+.login-wrapper{
+  max-width: 400px;
+  border: 2px solid black;
+  border-radius: 5px;
+  padding: 30px;
+  margin: auto;
+  margin-top: 50px;
+}
+.login-wrapper h1{
+  text-align: center;
+  text-shadow: 1px 1px 0px black;
+}
+
+.btn-wrapper{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+}
+
+.btn{
+  padding: 15px 30px;
+  line-height: 5px;
+  font-size: 18px !important;
+  margin: auto;
+  margin-top: 25px;
+}
+.login-wrapper input::placeholder{
+  padding-left: 10px;
+}
+.line{
+  font-weight: 600;
+  margin-bottom: -5px;
+}
+.line span{
+  color: blue;
+}
+.line span:hover{
+  cursor: pointer;
+}
+
+/* profile style */
+.profile-wrapper{
+  max-width: 800px;
+  margin: 0px auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.pic_icon{
+  font-size: 160px;
+  color: grey;
+}
+
+
+
+.pic_btn:hover{
+  cursor: pointer;
+  background-color: rgb(117, 172, 239) !important;
+}
+
+/* home-card style */
+.home_wrapper{
+  display: flex;
+  flex-direction: column; 
+  padding: 5px;
+  
+}
+.home_card{
+  margin-top: 15px;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid rgb(164, 164, 164);
+  border-radius: 2px;
+  box-shadow: 1px 1px 5px rgb(87, 86, 86);
+  background-color: white;
+}
+.home_card input::placeholder{
+  color: rgb(104, 100, 100);
+  padding-left: 5px;
+}
+
+.comment_btn{
+  border-radius: 5px;
+  background-color: black;
+  color: white;
+  padding: 5px 10px;
+  font-weight: 600;
+  box-shadow: 2px 2px 4px rgb(15, 176, 245);
+}
+
+.comment_btn:hover{
+  background-color: white;
+  color:black;
+  cursor: pointer;
+}
+
+.del_btn{
+  margin-right: 10px !important;
+  cursor: pointer;
+}
+
+.del_btn:hover{
+  color: rgb(14, 161, 230);
+}
+
+/* create-post style */
+.createpost_wrapper{
+  max-width: 550px;
+  margin:20px auto;
+}
+
+.createpost_container{
+  box-shadow: 2px 2px 5px grey;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.up_img{
+  background-color: rgb(24, 201, 201);
+  color: white;
+  font-size: large;
+  text-align: center;
+  border-radius: 5px;
+  box-shadow: 2px 2px 2px gray;
+  margin: 6px 20px;
+  padding: 6px 20px;
+  cursor: pointer;
+}
+
+.up_img:hover{
+  background: rgb(42, 191, 205);
+}
+
+.file_btn{
+  display: none;
+}
+
+#toast-container{
+  top:20px !important;
+  right: 30px !important;
+  left: auto;
+}
+
+/* profile pic */
+.profilepic_wrapper{
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.profpic{
+  width:200px;
+  height: 200px;
+  margin: 10px;
+  border-radius: 3px;
+}
+
+.profile_img_btn{
+  padding: 5px 45px;
+  background-color: rgb(76, 207, 227);
+  border-radius: 25px;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.profile_img_btn:hover{
+  cursor: pointer;
+  background: rgb(74, 178, 238);
+}
+
+/* userprofile */
+.follow_btn{
+  background: rgb(173, 170, 170);
+  border-radius: 20px;
+  padding: 5px 20px;
+  cursor: pointer;
+  border: 1px solid rgb(70, 70, 70);
+  font-weight: 600;
+}
